@@ -76,4 +76,3 @@ if st.sidebar.button("Generate"):
             tasks=[youtube_script_title,script_generation_task],
     ).run()
     st.markdown(output[0]['task_output'])
-    st.markdown(output[1]['task_output'])
